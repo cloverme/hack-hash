@@ -1,1 +1,269 @@
-var _0x3533=['B-2441M','Untethered\x20Lands','There\x20is\x20a\x20secret\x20book','of\x20treasure','Secret\x20#3','p8-1p-3l-10l-p16-3l','Hack\x20magic\x20opens\x20doors','to\x20loot\x20and\x20secrets','Secret\x20#4','p29/1p/15w','The\x20treasure','is\x20not\x20in\x20this\x20world','Hack\x20&\x20Hash','A\x20bot\x20has\x20taken','over\x20these\x20lands','and\x20hid\x20a\x20crypto','treasure,\x20now\x20lost...','Libraries\x20are','lost\x20to\x20time...','#7\x20','p30/4p/18w','shop_id','title','select_pos','items_for_sale','button','msg1','Exit','option','type','value','weapon','(You\x20own\x20this)','(Yours\x20is\x20better)','weapons','crypto','armor','(You\x20know\x20this)','spellbook','(Too\x20advanced)','Spellbook:\x20','spells','max_hp','max_mp','Room\x20for\x20the\x20night','msg2','Buy\x20','for\x20','message','Bought\x20','armors','You\x20have\x20rested','item','name','Tethers\x20Leathers','background','Hackers\x20Den','The\x20book\x20has','all\x20the\x20secrets','Secret\x20#2','p16/5p/20w','Crypto\x20Mart','Fire\x20magic\x20is\x20effective','against\x20undead\x20and\x20bone.','Counterparty','There\x20is\x20hidden\x20crypto','somewhere\x20in\x20the\x20land.','Secret\x20#1'];(function(_0x278ae8,_0x53a533){var _0x76f93a=function(_0x2ccbcc){while(--_0x2ccbcc){_0x278ae8['push'](_0x278ae8['shift']());}};_0x76f93a(++_0x53a533);}(_0x3533,0x144));var _0x1f29=function(_0x48620f,_0x2b3197){_0x48620f=_0x48620f-0x0;var _0x68c577=_0x3533[_0x48620f];return _0x68c577;};var SHOP_COUNT=0xa;var SHOP_WEAPON=0x0;var SHOP_ARMOR=0x1;var SHOP_SPELL=0x2;var SHOP_ROOM=0x3;var SHOP_MESSAGE=0x4;var shop=new Array();for(var i=0x0;i<SHOP_COUNT;i++){shop[i]=new Object();shop[i][_0x1f29('0x0')]=new Array();}shop[0x0][_0x1f29('0x1')]='ASIC\x20Factory';shop[0x0][_0x1f29('0x0')][0x0]={'type':SHOP_WEAPON,'value':0x2};shop[0x0][_0x1f29('0x0')][0x1]={'type':SHOP_WEAPON,'value':0x3};shop[0x0]['background']=0x3;shop[0x1][_0x1f29('0x1')]=_0x1f29('0x2');shop[0x1][_0x1f29('0x0')][0x0]={'type':SHOP_ARMOR,'value':0x2};shop[0x1][_0x1f29('0x0')][0x1]={'type':SHOP_ARMOR,'value':0x3};shop[0x1][_0x1f29('0x3')]=0x3;shop[0x2][_0x1f29('0x1')]=_0x1f29('0x4');shop[0x2][_0x1f29('0x0')][0x0]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0x5'),'msg2':_0x1f29('0x6')};shop[0x2]['item'][0x1]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0x7'),'msg2':_0x1f29('0x8')};shop[0x2][_0x1f29('0x0')][0x2]={'type':SHOP_ROOM,'value':0xa};shop[0x2][_0x1f29('0x3')]=0x3;shop[0x3][_0x1f29('0x1')]=_0x1f29('0x9');shop[0x3][_0x1f29('0x0')][0x0]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0xa'),'msg2':_0x1f29('0xb')};shop[0x3]['item'][0x1]={'type':SHOP_SPELL,'value':0x2};shop[0x3][_0x1f29('0x3')]=0x3;shop[0x4]['name']=_0x1f29('0xc');shop[0x4][_0x1f29('0x0')][0x0]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0xd'),'msg2':_0x1f29('0xe')};shop[0x4][_0x1f29('0x0')][0x1]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0xf'),'msg2':_0x1f29('0x10')};shop[0x4][_0x1f29('0x3')]=0x3;shop[0x5]['name']=_0x1f29('0x11');shop[0x5][_0x1f29('0x0')][0x0]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0x12'),'msg2':_0x1f29('0x13')};shop[0x5][_0x1f29('0x0')][0x1]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0x14'),'msg2':_0x1f29('0x15')};shop[0x5][_0x1f29('0x3')]=0x3;shop[0x6]['name']='NSA\x20Office';shop[0x6]['item'][0x0]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0x16'),'msg2':_0x1f29('0x17')};shop[0x6][_0x1f29('0x0')][0x1]={'type':SHOP_SPELL,'value':0x3};shop[0x6]['background']=0x3;shop[0x7]['name']='Satoshi\x20Hideout';shop[0x7][_0x1f29('0x0')][0x0]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0x18'),'msg2':_0x1f29('0x19')};shop[0x7][_0x1f29('0x0')][0x1]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0x1a'),'msg2':_0x1f29('0x1b')};shop[0x7][_0x1f29('0x3')]=0x3;shop[0x8][_0x1f29('0x1')]=_0x1f29('0x1c');shop[0x8][_0x1f29('0x0')][0x0]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0x1d'),'msg2':_0x1f29('0x1e')};shop[0x8]['item'][0x1]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0x1f'),'msg2':_0x1f29('0x20')};shop[0x8][_0x1f29('0x3')]=0x2;shop[0x9][_0x1f29('0x1')]='Age\x20of\x20Rust\x20Relics';shop[0x9][_0x1f29('0x0')][0x0]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0x21'),'msg2':_0x1f29('0x22')};shop[0x9][_0x1f29('0x0')][0x1]={'type':SHOP_MESSAGE,'msg1':_0x1f29('0x23'),'msg2':_0x1f29('0x24')};shop[0x9][_0x1f29('0x3')]=0x3;function shop_set(_0x4dd54a){dialog[_0x1f29('0x25')]=_0x4dd54a;dialog[_0x1f29('0x26')]=shop[_0x4dd54a][_0x1f29('0x1')];dialog[_0x1f29('0x27')]=BUTTON_POS_OPT2;dialog[_0x1f29('0x28')]=![];dialog['option'][0x2][_0x1f29('0x29')]=DIALOG_BUTTON_EXIT;dialog['option'][0x2][_0x1f29('0x2a')]=_0x1f29('0x2b');dialog[_0x1f29('0x2c')][0x2]['msg2']='';for(var _0x25e772=0x0;_0x25e772<=0x1;_0x25e772++){if(shop[_0x4dd54a][_0x1f29('0x0')][_0x25e772]){if(shop[_0x4dd54a][_0x1f29('0x0')][_0x25e772][_0x1f29('0x2d')]==SHOP_WEAPON){shop_set_weapon(_0x25e772,shop[_0x4dd54a][_0x1f29('0x0')][_0x25e772][_0x1f29('0x2e')]);}else if(shop[_0x4dd54a][_0x1f29('0x0')][_0x25e772][_0x1f29('0x2d')]==SHOP_ARMOR){shop_set_armor(_0x25e772,shop[_0x4dd54a][_0x1f29('0x0')][_0x25e772]['value']);}else if(shop[_0x4dd54a][_0x1f29('0x0')][_0x25e772]['type']==SHOP_SPELL){shop_set_spell(_0x25e772,shop[_0x4dd54a][_0x1f29('0x0')][_0x25e772]['value']);}else if(shop[_0x4dd54a][_0x1f29('0x0')][_0x25e772]['type']==SHOP_ROOM){shop_set_room(_0x25e772,shop[_0x4dd54a][_0x1f29('0x0')][_0x25e772][_0x1f29('0x2e')]);}else if(shop[_0x4dd54a][_0x1f29('0x0')][_0x25e772][_0x1f29('0x2d')]==SHOP_MESSAGE){shop_set_message(_0x25e772,shop[_0x4dd54a][_0x1f29('0x0')][_0x25e772][_0x1f29('0x2a')],shop[_0x4dd54a][_0x1f29('0x0')][_0x25e772]['msg2']);}}else{shop_clear_slot(_0x25e772);}}}function shop_set_weapon(_0x48dfe1,_0x2bb6d6){var _0x44164f='';if(_0x2bb6d6==avatar[_0x1f29('0x2f')])_0x44164f=_0x1f29('0x30');else if(_0x2bb6d6<avatar['weapon'])_0x44164f=_0x1f29('0x31');shop_set_buy(_0x48dfe1,info[_0x1f29('0x32')][_0x2bb6d6]['name'],info['weapons'][_0x2bb6d6][_0x1f29('0x33')],_0x44164f);}function shop_set_armor(_0x7342c6,_0x4cf9a0){var _0x1961ba='';if(_0x4cf9a0==avatar[_0x1f29('0x34')])_0x1961ba=_0x1f29('0x30');else if(_0x4cf9a0<avatar[_0x1f29('0x34')])_0x1961ba=_0x1f29('0x31');shop_set_buy(_0x7342c6,info['armors'][_0x4cf9a0][_0x1f29('0x1')],info['armors'][_0x4cf9a0]['crypto'],_0x1961ba);}function shop_set_spell(_0x22a351,_0x177cf7){var _0x50598d='';if(_0x177cf7<=avatar['spellbook'])_0x50598d=_0x1f29('0x35');else if(_0x177cf7>avatar[_0x1f29('0x36')]+0x1)_0x50598d=_0x1f29('0x37');shop_set_buy(_0x22a351,_0x1f29('0x38')+info['spells'][_0x177cf7][_0x1f29('0x1')],info[_0x1f29('0x39')][_0x177cf7]['crypto'],_0x50598d);}function shop_set_room(_0x49911c,_0x378f11){var _0x510380='';if(avatar['hp']==avatar[_0x1f29('0x3a')]&&avatar['mp']==avatar[_0x1f29('0x3b')])_0x510380='(You\x20are\x20well\x20rested)';shop_set_buy(_0x49911c,_0x1f29('0x3c'),_0x378f11,_0x510380);}function shop_set_message(_0x41c3a7,_0x10f67d,_0x2d89e4){dialog[_0x1f29('0x2c')][_0x41c3a7][_0x1f29('0x29')]=DIALOG_BUTTON_NONE;dialog['option'][_0x41c3a7][_0x1f29('0x2a')]=_0x10f67d;dialog[_0x1f29('0x2c')][_0x41c3a7][_0x1f29('0x3d')]=_0x2d89e4;}function shop_set_buy(_0x21637f,_0x31f4a9,_0x181273,_0x5d8326){dialog[_0x1f29('0x2c')][_0x21637f][_0x1f29('0x2a')]=_0x1f29('0x3e')+_0x31f4a9;if(_0x5d8326!=''){dialog[_0x1f29('0x2c')][_0x21637f][_0x1f29('0x3d')]=_0x5d8326;}else{dialog[_0x1f29('0x2c')][_0x21637f]['msg2']=_0x1f29('0x3f')+_0x181273+'\x20crypto';}var _0x375c2d=!![];if(avatar[_0x1f29('0x33')]<_0x181273)_0x375c2d=![];if(_0x5d8326!='')_0x375c2d=![];if(_0x375c2d){dialog[_0x1f29('0x2c')][_0x21637f][_0x1f29('0x29')]=DIALOG_BUTTON_BUY;}else{dialog[_0x1f29('0x2c')][_0x21637f][_0x1f29('0x29')]=DIALOG_BUTTON_NONE;}dialog[_0x1f29('0x28')]=!![];}function shop_clear_slot(_0x3d1199){dialog[_0x1f29('0x2c')][_0x3d1199]['msg1']='';dialog[_0x1f29('0x2c')][_0x3d1199][_0x1f29('0x3d')]='';dialog[_0x1f29('0x2c')][_0x3d1199]['button']=DIALOG_BUTTON_NONE;}function shop_act(_0x5ec6ec,_0x32ebd4){if(_0x32ebd4==0x2){shop_exit(_0x5ec6ec);return;}if(shop[_0x5ec6ec][_0x1f29('0x0')][_0x32ebd4][_0x1f29('0x2d')]==SHOP_WEAPON){shop_buy_weapon(shop[_0x5ec6ec]['item'][_0x32ebd4]['value']);return;}if(shop[_0x5ec6ec][_0x1f29('0x0')][_0x32ebd4][_0x1f29('0x2d')]==SHOP_ARMOR){shop_buy_armor(shop[_0x5ec6ec][_0x1f29('0x0')][_0x32ebd4]['value']);return;}if(shop[_0x5ec6ec][_0x1f29('0x0')][_0x32ebd4][_0x1f29('0x2d')]==SHOP_SPELL){shop_buy_spell(shop[_0x5ec6ec]['item'][_0x32ebd4][_0x1f29('0x2e')]);return;}if(shop[_0x5ec6ec][_0x1f29('0x0')][_0x32ebd4][_0x1f29('0x2d')]==SHOP_ROOM){shop_buy_room(shop[_0x5ec6ec][_0x1f29('0x0')][_0x32ebd4][_0x1f29('0x2e')]);return;}}function shop_buy_weapon(_0x24e5c5){var _0x27a624=info[_0x1f29('0x32')][_0x24e5c5][_0x1f29('0x33')];if(avatar[_0x1f29('0x33')]<_0x27a624)return;avatar[_0x1f29('0x33')]-=_0x27a624;sounds_play(SFX_COIN);avatar[_0x1f29('0x2f')]=_0x24e5c5;dialog[_0x1f29('0x40')]=_0x1f29('0x41')+info['weapons'][_0x24e5c5][_0x1f29('0x1')];shop_set(dialog[_0x1f29('0x25')]);redraw=!![];}function shop_buy_armor(_0x53bd8f){var _0x214d85=info[_0x1f29('0x42')][_0x53bd8f][_0x1f29('0x33')];if(avatar['crypto']<_0x214d85)return;avatar[_0x1f29('0x33')]-=_0x214d85;sounds_play(SFX_COIN);avatar[_0x1f29('0x34')]=_0x53bd8f;dialog[_0x1f29('0x40')]=_0x1f29('0x41')+info['armors'][_0x53bd8f][_0x1f29('0x1')];shop_set(dialog[_0x1f29('0x25')]);redraw=!![];}function shop_buy_spell(_0x17bf76){var _0x99d4b1=info['spells'][_0x17bf76]['crypto'];if(avatar[_0x1f29('0x33')]<_0x99d4b1)return;avatar[_0x1f29('0x33')]-=_0x99d4b1;sounds_play(SFX_COIN);avatar[_0x1f29('0x36')]=_0x17bf76;dialog[_0x1f29('0x40')]='Learned\x20'+info[_0x1f29('0x39')][_0x17bf76][_0x1f29('0x1')];shop_set(dialog[_0x1f29('0x25')]);redraw=!![];}function shop_buy_room(_0x17347d){if(avatar[_0x1f29('0x33')]<_0x17347d)return;avatar[_0x1f29('0x33')]-=_0x17347d;sounds_play(SFX_COIN);dialog['message']=_0x1f29('0x43');avatar_sleep();shop_set(dialog[_0x1f29('0x25')]);redraw=!![];}function shop_exit(_0x3d565c){sounds_play(SFX_CLICK);gamestate=STATE_EXPLORE;redraw=!![];}
+/**
+ Dialog info for game shops
+ */
+
+var SHOP_COUNT = 10;
+
+var SHOP_WEAPON = 0;
+var SHOP_ARMOR = 1;
+var SHOP_SPELL = 2;
+var SHOP_ROOM = 3;
+var SHOP_MESSAGE = 4;
+
+var shop = new Array();
+for (var i=0; i<SHOP_COUNT; i++) {
+  shop[i] = new Object();
+  shop[i].item = new Array();
+}
+
+// Cedar Village Shops
+shop[0].name = "ASIC Factory";
+shop[0].item[0] = {type:SHOP_WEAPON, value:2};
+shop[0].item[1] = {type:SHOP_WEAPON, value:3};
+shop[0].background = 3;
+
+shop[1].name = "Tethers Leathers";
+shop[1].item[0] = {type:SHOP_ARMOR, value:2};
+shop[1].item[1] = {type:SHOP_ARMOR, value:3};
+shop[1].background = 3;
+
+shop[2].name = "Hackers Den";
+shop[2].item[0] = {type:SHOP_MESSAGE, msg1:"The book has", msg2:"all the secrets"};
+shop[2].item[1] = {type:SHOP_MESSAGE, msg1:"Secret #2", msg2:"p16/5p/20w"};
+shop[2].item[2] = {type:SHOP_ROOM, value:10};
+shop[2].background = 3;
+
+shop[3].name = "Crypto Mart";
+shop[3].item[0] = {type:SHOP_MESSAGE, msg1:"Fire magic is effective", msg2:"against undead and bone."};
+shop[3].item[1] = {type:SHOP_SPELL, value:2};
+shop[3].background = 3;
+
+shop[4].name = "Counterparty";
+shop[4].item[0] = {type:SHOP_MESSAGE, msg1:"There is hidden crypto", msg2:"somewhere in the land."};
+shop[4].item[1] = {type:SHOP_MESSAGE, msg1:"Secret #1", msg2:"B-2441M"};
+shop[4].background = 3;
+
+shop[5].name = "Untethered Lands";
+shop[5].item[0] = {type:SHOP_MESSAGE, msg1:"There is a secret book", msg2:"of treasure"};
+shop[5].item[1] = {type:SHOP_MESSAGE, msg1:"Secret #3", msg2:"p8-1p-3l-10l-p16-3l"};
+shop[5].background = 3;
+
+shop[6].name = "NSA Office";
+shop[6].item[0] = {type:SHOP_MESSAGE, msg1:"Hack magic opens doors", msg2:"to loot and secrets"};
+shop[6].item[1] = {type:SHOP_SPELL, value:3};
+shop[6].background = 3;
+
+shop[7].name = "Satoshi Hideout";
+shop[7].item[0] = {type:SHOP_MESSAGE, msg1:"Secret #4", msg2:"p38/1p/15w"};
+shop[7].item[1] = {type:SHOP_MESSAGE, msg1:"The treasure", msg2:"is not in this world"};
+shop[7].background = 3;
+
+shop[8].name = "Hack & Hash";
+shop[8].item[0] = {type:SHOP_MESSAGE, msg1:"A bot has taken", msg2:"over these lands"};
+shop[8].item[1] = {type:SHOP_MESSAGE, msg1:"and hid a crypto", msg2:"treasure, now lost..."};
+shop[8].background = 2;
+
+shop[9].name = "Age of Rust Relics";
+shop[9].item[0] = {type:SHOP_MESSAGE, msg1:"Libraries are", msg2:"lost to time..."};
+shop[9].item[1] = {type:SHOP_MESSAGE, msg1:"#7 ", msg2:"p31/4p/18w"};
+shop[9].background = 3;
+
+//---- Set choice options for shops --------
+
+
+function shop_set(shop_id) {
+  
+  dialog.shop_id = shop_id;
+  dialog.title = shop[shop_id].name;
+  dialog.select_pos = BUTTON_POS_OPT2;
+  dialog.items_for_sale = false;
+
+  // most shops should use the exit button as the third option
+  dialog.option[2].button = DIALOG_BUTTON_EXIT;
+  dialog.option[2].msg1 = "Exit";
+  dialog.option[2].msg2 = "";
+
+  // shops can have two items for purchase
+  for (var i=0; i<=1; i++) {
+    if (shop[shop_id].item[i]) {
+      if (shop[shop_id].item[i].type == SHOP_WEAPON) {
+        shop_set_weapon(i, shop[shop_id].item[i].value);
+      }
+      else if (shop[shop_id].item[i].type == SHOP_ARMOR) {
+        shop_set_armor(i, shop[shop_id].item[i].value);
+      }
+      else if (shop[shop_id].item[i].type == SHOP_SPELL) {
+        shop_set_spell(i, shop[shop_id].item[i].value);
+      }
+      else if (shop[shop_id].item[i].type == SHOP_ROOM) {
+        shop_set_room(i, shop[shop_id].item[i].value);
+      }
+      else if (shop[shop_id].item[i].type == SHOP_MESSAGE) {
+        shop_set_message(i, shop[shop_id].item[i].msg1, shop[shop_id].item[i].msg2);
+      }
+    }
+    else {
+      shop_clear_slot(i);
+    }
+  }
+
+}
+
+function shop_set_weapon(slot, weapon_id) {
+  var disable_reason = "";
+  if (weapon_id == avatar.weapon) disable_reason = "(You own this)";
+  else if (weapon_id < avatar.weapon) disable_reason = "(Yours is better)";
+
+  shop_set_buy(slot, info.weapons[weapon_id].name, info.weapons[weapon_id].crypto, disable_reason);
+}
+
+function shop_set_armor(slot, armor_id) {
+  var disable_reason = "";
+  if (armor_id == avatar.armor) disable_reason = "(You own this)";
+  else if (armor_id < avatar.armor) disable_reason = "(Yours is better)";
+
+  shop_set_buy(slot, info.armors[armor_id].name, info.armors[armor_id].crypto, disable_reason);
+}
+
+function shop_set_spell(slot, spell_id) {
+  var disable_reason = "";
+  if (spell_id <= avatar.spellbook) disable_reason = "(You know this)";
+  else if (spell_id > avatar.spellbook +1) disable_reason = "(Too advanced)";
+  
+  shop_set_buy(slot, "Spellbook: " + info.spells[spell_id].name, info.spells[spell_id].crypto, disable_reason); 
+}
+
+function shop_set_room(slot, room_cost) {
+  var disable_reason = "";
+  if (avatar.hp == avatar.max_hp && avatar.mp == avatar.max_mp) disable_reason = "(You are well rested)";
+  shop_set_buy(slot, "Room for the night", room_cost, disable_reason);
+}
+
+function shop_set_message(slot, msg1, msg2) {
+  dialog.option[slot].button = DIALOG_BUTTON_NONE;
+  dialog.option[slot].msg1 = msg1;
+  dialog.option[slot].msg2 = msg2;
+}
+
+function shop_set_buy(slot, name, cost, disable_reason) {
+
+  dialog.option[slot].msg1 = "Buy " + name;
+
+  // show the crypto cost or the reason you can't
+  if (disable_reason != "") {
+    dialog.option[slot].msg2 = disable_reason;
+  }
+  else {
+    dialog.option[slot].msg2 = "for " + cost + " crypto";
+  }
+
+  // display the dialog button if the item can be purchased
+  var can_buy = true;
+  if (avatar.crypto < cost) can_buy = false;
+  if (disable_reason != "") can_buy = false;
+
+  if (can_buy) {
+    dialog.option[slot].button = DIALOG_BUTTON_BUY;
+  }
+  else {
+    dialog.option[slot].button = DIALOG_BUTTON_NONE;
+  }
+  
+  // used to determine whether to display current crypto
+  dialog.items_for_sale = true;
+}
+
+function shop_clear_slot(slot) {
+  dialog.option[slot].msg1 = "";
+  dialog.option[slot].msg2 = "";
+  dialog.option[slot].button = DIALOG_BUTTON_NONE;
+}
+
+//---- Handle choices for shops --------
+
+function shop_act(shop_id, slot_id) {
+
+  if (slot_id == 2) {
+    shop_exit(shop_id);
+    return;
+  }
+
+  if (shop[shop_id].item[slot_id].type == SHOP_WEAPON) {
+    shop_buy_weapon(shop[shop_id].item[slot_id].value);
+    return;
+  }
+
+  if (shop[shop_id].item[slot_id].type == SHOP_ARMOR) {
+    shop_buy_armor(shop[shop_id].item[slot_id].value);
+    return;
+  }
+
+  if (shop[shop_id].item[slot_id].type == SHOP_SPELL) {
+    shop_buy_spell(shop[shop_id].item[slot_id].value);
+    return;
+  }
+  
+  if (shop[shop_id].item[slot_id].type == SHOP_ROOM) {
+    shop_buy_room(shop[shop_id].item[slot_id].value);
+    return;
+  }  
+}
+
+function shop_buy_weapon(weapon_id) {
+  var cost = info.weapons[weapon_id].crypto;
+  if (avatar.crypto < cost) return;
+
+  avatar.crypto -= cost;
+  sounds_play(SFX_COIN);
+  avatar.weapon = weapon_id;
+  dialog.message = "Bought " + info.weapons[weapon_id].name;
+  shop_set(dialog.shop_id);
+  redraw = true;
+
+}
+
+function shop_buy_armor(armor_id) {
+  var cost = info.armors[armor_id].crypto;
+  if (avatar.crypto < cost) return;
+
+  avatar.crypto -= cost;
+  sounds_play(SFX_COIN);
+  avatar.armor = armor_id;
+  dialog.message = "Bought " + info.armors[armor_id].name;
+  shop_set(dialog.shop_id);
+  redraw = true;
+}
+
+function shop_buy_spell(spell_id) {
+  var cost = info.spells[spell_id].crypto;
+  if (avatar.crypto < cost) return;
+  
+  avatar.crypto -= cost;
+  sounds_play(SFX_COIN);
+  avatar.spellbook = spell_id;
+  dialog.message = "Learned " + info.spells[spell_id].name;
+  shop_set(dialog.shop_id);
+  redraw = true;
+}
+
+function shop_buy_room(cost) {
+  if (avatar.crypto < cost) return;
+  
+  avatar.crypto -= cost;
+  sounds_play(SFX_COIN);
+  dialog.message = "You have rested";
+  
+  avatar_sleep();
+  shop_set(dialog.shop_id);
+  redraw = true;
+}
+
+function shop_exit(shop_id) {
+  sounds_play(SFX_CLICK);
+  gamestate = STATE_EXPLORE;
+  redraw = true; 
+}
+
+
+
+
