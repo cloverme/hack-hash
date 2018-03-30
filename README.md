@@ -10,9 +10,12 @@ http://pineapplearcade.net/
 * Hack & Hash Music by Marcelo Fernandez
 * Updated graphics by SpacePirate Games
 
-Embedded Reward Crypto Prize of 100,000 Rustbits: 
+Embedded Reward Crypto Prize of 100,000 Rustbits:
+ 
 Prize 1 https://xchain.io/address/13M7H2jx9NpAT4QyXbuHn9628RpD2jDXA9 (solved)
+
 Prize 2 https://xchain.io/address/13qWaosDZjBeuMhu2rLzT2rA1YqyUSkJLB
+
 
 Open source Repository: https://github.com/clovermebitcoin/hack-hash
 
