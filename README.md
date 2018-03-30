@@ -1,14 +1,17 @@
-# Hack & Hash Credits 
+# Hack & Hash for Pineapple Arcade 
+Hack & Hash is a retro-style 80's RPG dungeon crawler with a references to 80s culture and cryptocurrency.
+Explore the Hack and Hash world, gather clues to solve the treasure hunt puzzle contained within. 
 
-Hack & Hash is based off of the original game Heroine Dusk by Clint Bellanger
+## Pineapple Arcade
+http://pineapplearcade.net/
 
-Modifications done by SpacePirate Games and Jefferson Carpenter
+* Hack & Hash is based off of the open source game "Heroine Dusk" by Clint Bellanger, all rights reserved.
+* Modifications done by SpacePirate Games and Jefferson Carpenter
+* Hack & Hash Music by Marcelo Fernandez
+* Updated graphics by SpacePirate Games
 
-Hack & Hash Music by Marcelo Fernandez
-
-Updated graphics by SpacePirate Games
-
-Embedded Reward Crypto Prize: https://xchain.io/address/13M7H2jx9NpAT4QyXbuHn9628RpD2jDXA9
+Embedded Reward Crypto Prize of 100,000 Rustbits: 
+https://xchain.io/address/13M7H2jx9NpAT4QyXbuHn9628RpD2jDXA9
 
 Open source Repository: https://github.com/clovermebitcoin/hack-hash
 
