@@ -14,7 +14,7 @@ Embedded Reward Crypto Prize of 100,000 Rustbits:
  
 Prize 1 https://xchain.io/address/13M7H2jx9NpAT4QyXbuHn9628RpD2jDXA9 (solved)
 
-Prize 2 https://xchain.io/address/13qWaosDZjBeuMhu2rLzT2rA1YqyUSkJLB
+Prize 2 https://xchain.io/address/13qWaosDZjBeuMhu2rLzT2rA1YqyUSkJLB (solved)
 
 
 Open source Repository: https://github.com/clovermebitcoin/hack-hash
